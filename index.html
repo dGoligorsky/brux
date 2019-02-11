@@ -3,9 +3,9 @@
 <html>
 
     <head>
-        <title>Hyperhi</title>
+        <title>Brux</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Hyperhi">
+        <meta name="description" content="Brux">
         <link rel="stylesheet" type="text/css" href="base.css">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
@@ -15,7 +15,13 @@
         <header>
             <h1>Brux</h1>
             <div class="face">
-                <img src="assets/face.svg">
+                <img src="assets/face-without-eyes.svg">
+                <div class="iris iris-left">
+                    <div></div>
+                </div>
+                <div class="iris iris-right">
+                    <div></div>
+                </div>
             </div>
             <nav>
                 <a href="products.html">Products</a>
@@ -24,11 +30,39 @@
             </nav>
         </header>
 
-        <section>
+        <section class="hero">
+            <h2>Keep your teeth healthy and happy</h2>
 
+            <p>With Brux Dental products, you can keep a smile that's worth protecting, whatever you eat.</p>
+
+            <a href="how-it-works.html" class="button">Read More</a>
         </section>
 
-        <script src="js/script.js"></script>
+        <section class="content">
+            <div class="image"></div>
+                <img src="assets/image1.jpg" srcset="assets/image1.jpg, image1-2x.jpg 2x">
+            </div>
+
+            <div class="content">
+                <h3>The world's best toothpastes and mouthwashes</h3>
+                <p>We work with some of the world's leading dentists and dental scientists to provide you with the best product to care for your teeth and gums.</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="image"></div>
+                <img src="assets/image2.jpg" srcset="assets/image2.jpg, image2-2x.jpg 2x">
+            </div>
+
+            <div class="content">
+                <h3>Top protection against sugary effects</h3>
+                <p>While it’s sensible to not go too overboard with your sugar intake, we know that you’re a real person too. Our products have been proven to neutralize sugar better than any leading-brand competitor.</p>
+            </div>
+        </section>
+
+        <script src="js/header.js"></script>
+        <script src="js/animation.js"></script>
+        <script src="js/eyes.js"></script>
 
     </body>
 
