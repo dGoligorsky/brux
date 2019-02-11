@@ -140,9 +140,3 @@ section.content:nth-child(odd) {
 section.content:nth-child(odd) div.content {
     margin: 0 48px 0 0;
 }
-
-// to remove any flash on page load
-/* h2, h3, p, section img, a.button {
-    opacity: 0;
-} */
-
